@@ -13,9 +13,35 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
 
   - [Python](https://www.python.org/)
-  - [MongoDB](https://www.mongodb.com/fr-fr)
+  - [MongoDB shell](https://www.mongodb.com/try/download/shell)
   - [Pandas](https://pandas.pydata.org/) :
 
 ```bash
 pip install pandas
 ```
+
+## Utiliser MongoDB
+
+Vous pouvez utiliser un invite de commandes pour ajouter, supprimer ou lire les données contenues dans la base MongoDB.
+
+Pour lancer Mongo Shell, rendez-vous sur le dossier de votre MongoDB Shell > bin > mongo.exe
+
+Si vous voulez afficher les collections de la base :
+```python
+show collections
+```
+
+Si vous voulez visualiser tout le contenu de la collection :
+```python
+```
+
+Si vous voulez rechercher une valeur en particulier :
+```python
+db.collection.find({ nom_de_la_colonne: 'valeur' })
+```
+
+Si vous voulez ajouter un élément à votre base :
+```python
+db.collection.insert({ nom_de_la_colonne : 'valeur', nom_de_la_colonne_2 : 'valeur'})
+```
+
