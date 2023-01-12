@@ -22,7 +22,7 @@ pip install pandas
 
 ## Utiliser MongoDB
 
-Vous pouvez utiliser un invite de commandes pour ajouter, supprimer ou lire les données contenues dans la base MongoDB.
+Vous pouvez utiliser un invite de commandes MongoDB pour ajouter, supprimer, modifier ou lire les données contenues dans la base MongoDB.
 
 Pour lancer Mongo Shell, rendez-vous sur le dossier de votre MongoDB Shell > bin > mongo.exe
 
@@ -33,6 +33,7 @@ show collections
 
 Si vous voulez visualiser tout le contenu de la collection :
 ```python
+db.collection.find()
 ```
 
 Si vous voulez rechercher une valeur en particulier :
@@ -42,6 +43,15 @@ db.collection.find({ nom_de_la_colonne: 'valeur' })
 
 Si vous voulez ajouter un élément à votre base :
 ```python
-db.collection.insert({ nom_de_la_colonne : 'valeur', nom_de_la_colonne_2 : 'valeur'})
+db.collection.insertOne({ nom_de_la_colonne : 'valeur', nom_de_la_colonne_2 : 'valeur'})
 ```
 
+Si vous voulez supprimer un élément à votre base :
+```python
+db.collection.deleteOne({ "_id": x })
+```
+
+Si vous voulez modifier un élément à votre base :
+```python
+db.collection.updateOne({ _id: x }, { $set: { "nom_de_la_colonne": "valeur" } })
+```
