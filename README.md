@@ -25,7 +25,7 @@ pip install pandas
 ## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
 
 
-Vous pouvez utiliser un invite de commandes MongoDB pour ajouter, supprimer, modifier ou lire les données contenues dans la base MongoDB.
+Vous pouvez utiliser un invite de commandes MongoDB pour modifier les données de votre base NoSQL. Ci-dessous quelques commandes de base si vous voulez vous essayer à Mongo Shell.
 
 Pour lancer Mongo Shell, rendez-vous sur le dossier de votre MongoDB Shell > bin > mongo.exe
 
