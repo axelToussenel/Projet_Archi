@@ -15,71 +15,33 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 Pour exécuter ce projet, vous aurez besoin de plusieurs choses. 
 Nous avons créé un fichier requirements.txt pour installer toutes les dépendances nécessaires.
 
-Ci-dessous le détail de tout ce dont vous aurez besoin :
+**Ci-dessous le détail de tout ce dont vous aurez besoin :**
 
   - [**Python**](https://www.python.org/)
   - [**Xampp**](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
   - [**MongoDB shell**](https://www.mongodb.com/try/download/shell)
-  - [**Numpy**](https://numpy.org/install/) :
   
-  ```bash
-pip install numpy
-```
+  - [**MongoDB Compass**](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
 
+
+Dépendances installées par requirements.txt :
+
+  - [**Numpy**](https://numpy.org/install/) :
   - [**Pandas**](https://pandas.pydata.org/) :
-
-```bash
-pip install pandas
-```
-
   - [**Flask**](https://flask.palletsprojects.com/en/2.2.x/) :
-
-```bash
-pip install Flask
-```
-
   - [**Bs4**](https://pypi.org/project/bs4/) :
-```bash
-pip install bs4
-```
-
   - [**Pymongo**](https://www.mongodb.com/docs/drivers/pymongo/) :
-
-```bash
-pip install pymongo
-```
-
   - [**DateTime**](https://pypi.org/project/DateTime/) :
-
-```bash
-pip install DateTime
-```
-
   - [**Matplotlib**](https://matplotlib.org/stable/users/installing/index.html) :
-
-```bash
-pip install matplotlib
-```
-
   - [**Seaborn**](https://seaborn.pydata.org/installing.html) :
-
-```bash
-pip install seaborn
-```
-
   - [**Dateutil**](https://pypi.org/project/python-dateutil/) :
-
-```bash
-pip install python-dateutil
-```
-
   - [**Webbrowser**](https://pypi.org/project/python-dateutil/) :
 
-```bash
-pip install pycopy-webbrowser
-```
+Lancez la commande suivante pour tout installer :
 
-  - [**MongoDB Compass**](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
+```
+pip install requirements.txt
+```
 
 
 ## Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
