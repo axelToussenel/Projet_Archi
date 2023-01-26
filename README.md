@@ -26,16 +26,15 @@ Nous avons créé un fichier requirements.txt pour installer toutes les dépenda
 
 Dépendances installées par requirements.txt :
 
-  - [**Numpy**](https://numpy.org/install/) :
-  - [**Pandas**](https://pandas.pydata.org/) :
-  - [**Flask**](https://flask.palletsprojects.com/en/2.2.x/) :
-  - [**Bs4**](https://pypi.org/project/bs4/) :
-  - [**Pymongo**](https://www.mongodb.com/docs/drivers/pymongo/) :
-  - [**DateTime**](https://pypi.org/project/DateTime/) :
-  - [**Matplotlib**](https://matplotlib.org/stable/users/installing/index.html) :
-  - [**Seaborn**](https://seaborn.pydata.org/installing.html) :
-  - [**Dateutil**](https://pypi.org/project/python-dateutil/) :
-  - [**Webbrowser**](https://pypi.org/project/python-dateutil/) :
+  - [**Numpy**](https://numpy.org/install/) 
+  - [**Pandas**](https://pandas.pydata.org/) 
+  - [**Flask**](https://flask.palletsprojects.com/en/2.2.x/) 
+  - [**Bs4**](https://pypi.org/project/bs4/) 
+  - [**Pymongo**](https://www.mongodb.com/docs/drivers/pymongo/) 
+  - [**DateTime**](https://pypi.org/project/DateTime/) 
+  - [**Matplotlib**](https://matplotlib.org/stable/users/installing/index.html) 
+  - [**Seaborn**](https://seaborn.pydata.org/installing.html) 
+  - [**Dateutil**](https://pypi.org/project/python-dateutil/) 
 
 Lancez la commande suivante pour tout installer :
 
