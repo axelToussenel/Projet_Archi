@@ -48,10 +48,10 @@ pip install requirements.txt
 ## I) Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
 
 
-  1) Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. 
-  2) Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
-  3) Rajouter une extension **.dll** (php_mongodb.dll) qui sera fourni, dans le chemin suivant: **C:\xampp\php\ext**.
-  4) Remplacer le fichier **php.ini** (qui sera fourni), dans le chemin suivant: **C:\xampp\php**.
+	1) Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. 
+	2) Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
+	3) Rajouter une extension **.dll** (php_mongodb.dll) qui sera fourni, dans le chemin suivant: **C:\xampp\php\ext**.
+	4) Remplacer le fichier **php.ini** (qui sera fourni), dans le chemin suivant: **C:\xampp\php**.
 
 Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'application est là !
 
@@ -61,7 +61,7 @@ Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'applicat
 
 	1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
 	2) Ouvrir le dossier de la base de données (qui sera fournis).
-  3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
+	3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
 
 
 ## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
