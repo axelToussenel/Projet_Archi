@@ -24,11 +24,11 @@ pip install pandas
 ```
 
 
-## Utiliser Xampp
+## Utiliser Xampp <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clubic.com%2Ftelecharger-fiche70674-xampp.html&psig=AOvVaw2N4Lv82TqSep74kxZIl6zU&ust=1674818503387000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDTsaGP5fwCFQAAAAAdAAAAABAK"  width="25" height="25"/>
 
 
-Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier "htdocs" de Xampp. Ensuite, lancez Xampp et cliquez sur le bouton "Start" en face de l'intitulé "Apache".
-Rendez-vous à l'adresse "localhost" sur votre navigateur favori et l'application est là !
+Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
+Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'application est là !
 
 
 ## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
