@@ -51,10 +51,10 @@ pip install requirements.txt
   1) Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. 
   2) Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
   3) Rajouter une extension **.dll** (php_mongodb.dll) qui sera fourni, dans le chemin suivant: **C:\xampp\php\ext**.
-  4) Remplacer le fichier **php.ini** (qui sera fourni), dans le chemin suivant: **C:\xampp\php**.
+  4) Remplacer le fichier **php.ini**, dans le chemin suivant: **C:\xampp\php**.
 
 
-## II) Mettre en place notre base de données NoSQL
+## II) Mettre en place notre base de données NoSQL <img src="https://img.icons8.com/color/96/null/mongodb.png"  width="25" height="25"/>
 
 
   1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
@@ -62,7 +62,7 @@ pip install requirements.txt
   3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
 
 
-## III) Lancer l'appli web
+## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="25" height="25"/>
 
 
   1) Sur VSCode, dans le dossier du site, lancer le run_server_flask
