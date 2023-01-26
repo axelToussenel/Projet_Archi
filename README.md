@@ -12,7 +12,10 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 ## Prérequis <img src="https://user-images.githubusercontent.com/91553182/212090262-3d9efbb5-a01b-4965-94ca-73e180410f7b.png"  width="25" height="25"/>
 
 
-Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
+Pour exécuter ce projet, vous aurez besoin de plusieurs choses. 
+
+Nous avons créé un fichier requirements.txt pour installer toutes les dépendances nécessaires.
+Ci-dessous le détail de ces dépendances :
 
   - [**Python**](https://www.python.org/)
   - [**Xampp**](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
