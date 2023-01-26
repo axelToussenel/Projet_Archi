@@ -23,6 +23,12 @@ Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
 pip install pandas
 ```
 
+  - [Flask](https://flask.palletsprojects.com/en/2.2.x/) :
+
+```bash
+pip install -U Flask
+```
+
 
 ## Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
 
