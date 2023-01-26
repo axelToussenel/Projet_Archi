@@ -8,7 +8,7 @@ from pymongo import MongoClient
 #reader = csv.DictReader( csvfile )
 
 def get_database():
-    CONNECTION_STRING="mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1"
+    CONNECTION_STRING="mongodb://localhost:27017"
     client = MongoClient(CONNECTION_STRING)
     return(client)
 
@@ -19,7 +19,7 @@ def create_db_collection(client):
 client=get_database()
 collection_name=create_db_collection(client)
 
-csvfile = pd.read_csv("voiture_donnees_live.csv", sep=";",encoding='ANSI')
+csvfile = pd.read_csv("voiture_donnees_brut_LC.csv", sep=";",encoding='ANSI')
 reader = csv.DictReader( csvfile )
 
 

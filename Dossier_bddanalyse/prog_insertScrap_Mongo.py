@@ -7,9 +7,9 @@ from pymongo import MongoClient
 from datetime import *
 import uuid
 
-client = MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1")
+client = MongoClient("mongodb://localhost:27017")
 db = client["Projet"]
-collection = db["Voiture_live_scrap2"]
+collection = db["Voiture_live_scrap"]
 
 cpt = 1
 max = 10
@@ -25,23 +25,23 @@ for cpt in range(max):
     data = []
     if annonce:
         for car in annonce:
-            _id = uuid.uuid4()
+            
             titre = soup.findAll("span", {"class":"searchCard__makeModel"})
             prix = soup.findAll("span", {"class":"text text-left text-color5 text-big text-regular"})
             dep = soup.findAll("div", {"class":"searchCard__dptCont"})
-            data.append([_id, titre, prix, dep])
+            data.append([titre, prix, dep])
             if(len(titre)==len(prix)==len(dep)):
                 for i in range(len(titre)):
                     prix_voiture=prix[i].text
                     prix_voiture=re.sub('€','',prix_voiture)
                     prix_voiture=re.sub('\xa0','',prix_voiture)
                     today = datetime.today().strftime('%Y-%m-%d')
-                    list_scrab.append([int(_id),titre[i].text,int(prix_voiture),int(dep[i].text),today])
+                    list_scrab.append([titre[i].text,int(prix_voiture),int(dep[i].text),today])
 
 
 
 
-df = pd.DataFrame(list_scrab, columns=["_id","Title","Prix","Departement","Date du jour"])
+df = pd.DataFrame(list_scrab, columns=["Title","Prix","Departement","Date du jour"])
 
 records = df.to_dict(orient='records')
 

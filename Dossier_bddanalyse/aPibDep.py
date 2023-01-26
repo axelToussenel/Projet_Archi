@@ -8,7 +8,7 @@ import seaborn as sns
 from pymongo import MongoClient 
 
 
-CONNECTION_STRING="mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1"
+CONNECTION_STRING="mongodb://127.0.0.1:27017/4?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1"
 client = MongoClient(CONNECTION_STRING)
 
 

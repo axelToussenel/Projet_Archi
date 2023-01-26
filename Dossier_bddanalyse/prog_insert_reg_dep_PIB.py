@@ -8,7 +8,7 @@ from pymongo import MongoClient
 #reader = csv.DictReader( csvfile )
 
 def get_database():
-    CONNECTION_STRING="mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1"
+    CONNECTION_STRING="mongodb://localhost:27017"
     client = MongoClient(CONNECTION_STRING)
     return(client)
 

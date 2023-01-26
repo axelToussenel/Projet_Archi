@@ -6,7 +6,7 @@ import json
 
 
 # Connexion à la base de données MongoDB
-client = MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.")
+client = MongoClient("mongodb://localhost:27017")
 db = client["Projet"]
 
 # Construction de la pipeline d'agrégation
