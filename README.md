@@ -59,19 +59,17 @@ pip install requirements.txt
 
   1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
   2) Ouvrir le dossier de la base de données (qui sera fournis).
-  3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
+  3) Lancer les scripts python dans l'ordre suivant: les 3 programmes **insert** puis l'**agregate**.
 
 
 ## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="30" height="30"/>
 
 
-  1) Sur VSCode, dans le dossier du site, lancer le run_server_flask
+  1) Sur VSCode, dans le dossier du site, lancer le run_server_flask.
   2) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
-
-
-
+----------
 
 ## Utiliser MongoDB
 
