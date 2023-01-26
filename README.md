@@ -70,7 +70,7 @@ pip install seaborn
 pip install python-dateutil
 ```
 
-  - [**Webbrowser **](https://pypi.org/project/python-dateutil/) :
+  - [**Webbrowser**](https://pypi.org/project/python-dateutil/) :
 
 ```bash
 pip install pycopy-webbrowser
