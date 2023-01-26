@@ -69,9 +69,7 @@ pip install requirements.txt
   2) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
-
-
-
+----------
 
 ## Utiliser MongoDB
 
