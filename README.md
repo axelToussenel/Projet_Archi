@@ -78,6 +78,19 @@ Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'ins
 
 ----------
 
+## Analyse des données
+
+
+Pour visualiser les différents diagrammes de l'analyse, lancez les fichier suivants que vous trouverez dans Dossier_bddanalyse.
+  - aMoyPrixVoitureDep.py : Cette analyse nous permet de visualiser la moyenne des prix des véhicules en vente sur La Centrale en fonctions de leurs départements.
+  - aPibDep.py : Cette visualisation nous permet de voir le PIB en fonction des départements.
+  - aPibReg.py : Cette visualisation nous permet de voir le PIB en fonction des régions.
+  - aPrixEtPibParDep.py : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des départements, l'autre affiche le PIB en fonction des départements.
+  - aPrixEtPibParReg.py : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des régions, l'autre affiche le PIB en fonction des régions.
+
+
+----------
+
 ## Utiliser MongoDB
 
 
