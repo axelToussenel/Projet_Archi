@@ -6,7 +6,10 @@
 
 Ce github contient notre projet d'Architecture Bases de Données encadré par M. GUILLOCHET. Nous avons décidé de travailler sur une corrélation entre la **santé des marque de voiture par rapport à leur cotation boursière** et au **nombre de voitures d'occasion vendu par ces marques**. Pour les ventes de voitures d'occasion selon les régions, nous avons scrappé le site web "La Centrale" avec l'extension Chrome "[Webscrapper](https://webscraper.io/)". Pour les cotations boursières, on a simplement récupéré un fichier csv sur un site web spécialisé.
 
-Au niveau de l'affichage, nous avons opté pour une petite interface web comportant un bouton pour actualiser les données et différentes informations qui sont affichées.
+Au niveau de l'affichage, nous avons opté pour une petite interface web comportant 2 boutons. Le 1er nous mène à une page où sont répertoriées les **dernières anonces de vente de voiture** scrappées sur le site **La Centrale**, et le 2nd, à une page où l'on peut voir les **annonces de voitures** en fonction du **PIB des départements et région**.
+
+Sur la page des "**Voiture la centrale scrape**", nous retrouvons une liste. Chacune des lignes de cette liste correspond à une **annonce/voiture**.
+Il y a également trouver un bouton pour **actualiser** les données(rescrapper les nouvelles annonces), ainsi qu'un 2ème pour **ajouter** une annonce à la liste (dans notre base MongoDB). Sur chacune des lignes se trouve 2 bouton : un pour **modifier* cette ligne et l'autre pour la **supprimmer** de la base.
 
 
 ## Prérequis <img src="https://user-images.githubusercontent.com/91553182/212090262-3d9efbb5-a01b-4965-94ca-73e180410f7b.png"  width="30" height="30"/>
@@ -77,7 +80,7 @@ Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'ins
 ## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="30" height="30"/>
 
 
-  1) Sur VSCode, dans le dossier du site, lancer le run_server_flask.
+  1) Sur VSCode, dans le dossier du site(voiture), lancer le run_server_flask.
   2) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
