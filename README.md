@@ -59,7 +59,13 @@ pip install requirements.txt
   1) Ouvrir **Visual Studio Code** et ouvrir le dossier du site (Voiture).
   2) Ouvrir le dossier de la base de données sur l'éditeur (/Dossier_bddanalyse).
   3) Ouvrir MongoDB Compass à côté pour visualiser les collections qui se sont insérées.
-  4) Lancer les scripts python (dans VSCode) dans l'ordre suivant: les 3 programmes **insert**(Dossier_bddanalyse/prog_insertScrap_Mongo.py, prog_insert_reg_dep_PIB.py, prog_insert_voiture_brut_LC.py) puis l'**agregate**(Dossier_bddanalyse/Agregate_collection.py).
+  4) Lancer les scripts python (dans VSCode) dans l'ordre suivant: 
+        - Les 3 programmes **insert** :
+            - Dossier_bddanalyse/prog_insertScrap_Mongo.py
+            - Dossier_bddanalyse/prog_insert_reg_dep_PIB.py
+            - Dossier_bddanalyse/prog_insert_voiture_brut_LC.py
+        - L'**agregate** :
+            - Dossier_bddanalyse/Agregate_collection.py
   
 Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'insertion des programmes python précédents, nous obtenons donc 4 collections distinctes dans une base de données qui s'appelle **Projet**.
   - **PIB_Dep_Reg** : Cette collection est notre 1er dataset brut, il contient les PIB des différents départements et régions en France.
