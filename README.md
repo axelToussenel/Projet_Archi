@@ -64,7 +64,7 @@ pip install -U matplotlib
 pip install seaborn
 ```
 
-  - [**Dateutil **](https://pypi.org/project/python-dateutil/) :
+  - [**Dateutil**](https://pypi.org/project/python-dateutil/) :
 
 ```bash
 pip install python-dateutil
