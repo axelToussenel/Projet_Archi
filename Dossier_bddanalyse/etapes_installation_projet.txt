@@ -1,0 +1,39 @@
+Tous les pip install 
+
+from flask import Flask, render_template
+import requests
+from bs4 import BeautifulSoup
+import csv
+import re
+import pandas as pd
+from pymongo import MongoClient
+from datetime import *
+from flask import Flask
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import json
+from dateutil import parser
+import webbrowser
+
+Etapes lancement projet 
+
+1) Installation Xampp version 8.1
+	1.1) installer le .exe (pas la derniere version)
+	1.2) Lancer Xampp 
+	1.3) Faire start sur le module Apache 
+	1.4) Rajouter une extension .dll (php_mongodb.dll) qui sera fourni, dans le chemin suivant :C:\xampp\php\ext 
+	1.5) Remplacer le fichier php.ini (qui sera fourni), dans le chemin suivant : C:\xampp\php
+
+2) Laisser Xampp démarré, puis ouvrir VSCODE
+	2.1) Faire un open folder du dossier du site (les fichiers seront fournis)
+	2.2) Faire un open folder du dossier de la base de données (qui sera fournis)
+
+3) Ouvrir mongodb et mongosh
+	3.1) retourner sur vscode dans le dossier de la base de données
+	3.2) lancer les scripts python (dans l'ordre suivant) : les 3 prog insert puis l'agregate collection
+
+4) Ouverture du site
+	4.1) retourner sur vscode dans le dossier du site 
+	4.2) lancer le run_server_flask
+	4.3) aller sur internet puis mettre (http://localhost/voiture/)

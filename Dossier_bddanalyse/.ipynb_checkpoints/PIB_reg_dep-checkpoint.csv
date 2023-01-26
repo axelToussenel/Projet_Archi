@@ -1,0 +1,95 @@
+Rang;Departements;PIB_dep_euros;Numero_Departement;Region;PIB_Region (en milliard d'euro)
+1;Paris;47695;75;ile-de-France;615
+2;Hauts-de-Seine;45141;92;ile-de-France;615
+3;Yvelines;40347;78;ile-de-France;615
+4;Haute-Savoie;36766;74;Auvergne-Rhone-Alpes;199
+5;Ain;31232;1;Auvergne-Rhone-Alpes;199
+6;Essonne;30974;91;ile-de-France;615
+7;Val-de-Marne;30973;94;ile-de-France;615
+8;Rhone;30854;69;Auvergne-Rhone-Alpes;199
+9;Haut-Rhin;30716;68;Grand Est;111
+10;Seine-et-Marne;29278;77;ile-de-France;615
+11;Alpes-Maritimes;28938;6;Provence-Alpes-Cote d'Azur;159
+12;Loire-Atlantique;28841;44;Pays de la Loire;90
+13;Savoie;28807;73;Auvergne-Rhone-Alpes;199
+14;Haute-Garonne;28714;31;Occitanie;172
+15;Isere;28666;38;Auvergne-Rhone-Alpes;199
+16;Bas-Rhin;28421;67;Grand Est;111
+17;Doubs;28238;25;Bourgogne-Franche-Comte;65
+18;Val-d'Oise;28184;95;ile-de-France;615
+19;Ille-et-Vilaine;28102;35;Bretagne;63
+20;Cote-d'Or;27964;21;Bourgogne-Franche-Comte;65
+21;Gironde;27909;33;Nouvelle-Aquitaine;191
+22;Marne;27283;51;Grand Est;111
+23;Oise;27056;60;Hauts-de-France;124
+24;Territoire de Belfort;26971;90;Bourgogne-Franche-Comte;65
+25;Pyrenees-Atlantiques;26918;64;Nouvelle-Aquitaine;191
+26;Var;26870;83;Provence-Alpes-Cote d'Azur;159
+27;Loiret;26782;45;Centre-Val de Loire;61
+28;Eure-et-Loir;26608;28;Centre-Val de Loire;61
+29;Bouches-du-Rhone;26598;13;Provence-Alpes-Cote d'Azur;159
+30;Indre-et-Loire;26597;37;Centre-Val de Loire;61
+31;Vendee;26406;85;Pays de la Loire;90
+32;Morbihan;26395;56;Bretagne;63
+34;Calvados;26201;14;Normandie;79
+35;Moselle;26141;57;Grand Est;111
+36;Finistere;26038;29;Bretagne;63
+37;Puy-de-Dome;25882;63;Auvergne-Rhone-Alpes;199
+38;Jura;25880;39;Bourgogne-Franche-Comte;65
+39;Maine-et-Loire;25816;49;Pays de la Loire;90
+40;Charente-Maritime;25697;17;Nouvelle-Aquitaine;191
+41;Meurthe-et-Moselle;25696;54;Grand Est;111
+42;Eure;25612;27;Normandie;79
+43;Drome;25570;26;Auvergne-Rhone-Alpes;199
+44;Seine-Maritime;25404;76;Normandie;79
+45;Loir-et-Cher;25275;41;Centre-Val de Loire;61
+46;Landes;25200;40;Nouvelle-Aquitaine;191
+48;Manche;25041;50;Normandie;79
+49;Sarthe;24951;72;Pays de la Loire;90
+50;Herault;24894;34;Occitanie;172
+51;Saone-et-Loire;24868;71;Bourgogne-Franche-Comte;65
+52;Mayenne;24840;53;Pays de la Loire;90
+53;Loire;24745;42;Auvergne-Rhone-Alpes;199
+54;Deux-Sevres;24742;79;Nouvelle-Aquitaine;191
+55;Nord;24628;59;Hauts-de-France;124
+56;Aube;24388;10;Grand Est;111
+57;Vienne;24277;86;Nouvelle-Aquitaine;191
+58;Hautes-Alpes;24153;5;Provence-Alpes-Cote d'Azur;159
+59;Vaucluse;24102;84;Provence-Alpes-Cote d'Azur;159
+60;Alpes-de-Haute-Provence;24045;4;Provence-Alpes-Cote d'Azur;159
+61;Ardeche;24029;7;Auvergne-Rhone-Alpes;199
+62;Haute-Vienne;23966;87;Nouvelle-Aquitaine;191
+63;Correze;23935;19;Nouvelle-Aquitaine;191
+64;Yonne;23883;89;Bourgogne-Franche-Comte;65
+65;Gard;23802;30;Occitanie;172
+66;Aveyron;23777;12;Occitanie;172
+67;Somme;23772;80;Hauts-de-France;124
+68;Tarn;23764;81;Occitanie;172
+69;Cher;23745;18;Centre-Val de Loire;61
+70;Lot;23636;46;Occitanie;172
+71;Charente;23634;16;Nouvelle-Aquitaine;191
+72;Haute-Saone;23563;70;Bourgogne-Franche-Comte;65
+73;Meuse;23490;55;Grand Est;111
+74;Haute-Loire;23423;43;Auvergne-Rhone-Alpes;199
+75;Vosges;23398;88;Grand Est;111
+76;Gers;23314;32;Occitanie;172
+78;Tarn-et-Garonne;23052;82;Occitanie;172
+79;Orne;22804;61;Normandie;79
+80;Lot-et-Garonne;22774;47;Nouvelle-Aquitaine;191
+81;Haute-Marne;22705;52;Grand Est;111
+82;Dordogne;22637;24;Nouvelle-Aquitaine;191
+83;Pas-de-Calais;22572;62;Hauts-de-France;124
+84;Allier;22556;3;Auvergne-Rhone-Alpes;199
+85;Aisne;22513;2;Hauts-de-France;124
+86;Hautes-Pyrenees;22453;65;Occitanie;172
+87;Cantal;22420;15;Auvergne-Rhone-Alpes;199
+88;Pyrenees-Orientales;22342;66;Occitanie;172
+89;Ardennes;22227;8;Grand Est;111
+90;Indre;22186;36;Centre-Val de Loire;61
+91;Lozere;22179;48;Occitanie;172
+92;Nievre;22091;58;Bourgogne-Franche-Comte;65
+93;Aude;21669;11;Occitanie;172
+94;Seine-Saint-Denis;21565;93;ile-de-France;615
+95;Ariege;21250;9;Occitanie;172
+96;Creuse;20301;23;Nouvelle-Aquitaine;191
+97;Monaco;82500;98;Monaco;7,27
