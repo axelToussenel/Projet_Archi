@@ -15,7 +15,7 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 Pour exécuter ce projet, vous aurez besoin de plusieurs choses. 
 Nous avons créé un fichier requirements.txt pour installer toutes les dépendances nécessaires.
 
-###Ci-dessous le détail de tout ce dont vous aurez besoin :###
+### Ci-dessous le détail de tout ce dont vous aurez besoin :
 
   - [**Python**](https://www.python.org/)
   - [**Xampp**](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
