@@ -29,6 +29,8 @@ pip install pandas
 pip install -U Flask
 ```
 
+  - [MongoDB Compass](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
+
 
 ## Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
 
