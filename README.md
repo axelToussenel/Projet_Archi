@@ -17,6 +17,12 @@ Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
   - [Python](https://www.python.org/)
   - [Xampp](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
   - [MongoDB shell](https://www.mongodb.com/try/download/shell)
+  - [Numpy](https://numpy.org/install/) :
+  
+  ```bash
+pip install numpy
+```
+
   - [Pandas](https://pandas.pydata.org/) :
 
 ```bash
@@ -27,6 +33,17 @@ pip install pandas
 
 ```bash
 pip install -U Flask
+```
+
+  - [Bs4](https://pypi.org/project/bs4/) :
+```bash
+pip install bs4
+```
+
+  - [Pymongo](https://www.mongodb.com/docs/drivers/pymongo/) :
+
+```bash
+pip install pymongo
 ```
 
   - [MongoDB Compass](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
