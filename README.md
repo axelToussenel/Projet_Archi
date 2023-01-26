@@ -15,6 +15,7 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
 
   - [Python](https://www.python.org/)
+  - [Xampp](https://www.apachefriends.org/fr/index.html)
   - [MongoDB shell](https://www.mongodb.com/try/download/shell)
   - [Pandas](https://pandas.pydata.org/) :
 
