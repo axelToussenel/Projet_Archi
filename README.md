@@ -28,6 +28,7 @@ pip install pandas
 
 
 Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
+
 Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'application est là !
 
 
