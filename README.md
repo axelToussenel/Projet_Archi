@@ -46,6 +46,18 @@ pip install bs4
 pip install pymongo
 ```
 
+  - [DateTime](https://pypi.org/project/DateTime/) :
+
+```bash
+pip install DateTime
+```
+
+  - [**Matplotlib**](https://matplotlib.org/stable/users/installing/index.html) :
+
+```bash
+pip install -U matplotlib
+```
+
   - [MongoDB Compass](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
 
 
