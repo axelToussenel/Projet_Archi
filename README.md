@@ -9,7 +9,7 @@ Ce github contient notre projet d'Architecture Bases de Données encadré par M.
 Au niveau de l'affichage, nous avons opté pour une petite interface web comportant un bouton pour actualiser les données et différentes informations qui sont affichées.
 
 
-## Prérequis <img src="https://user-images.githubusercontent.com/91553182/212090262-3d9efbb5-a01b-4965-94ca-73e180410f7b.png"  width="25" height="25"/>
+## Prérequis <img src="https://user-images.githubusercontent.com/91553182/212090262-3d9efbb5-a01b-4965-94ca-73e180410f7b.png"  width="30" height="30"/>
 
 
 Pour exécuter ce projet, vous aurez besoin de plusieurs choses. 
@@ -45,7 +45,7 @@ pip install requirements.txt
 
 # Mise en place du projet
 
-## I) Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
+## I) Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="30" height="30"/>
 
 
   1) Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. 
@@ -54,7 +54,7 @@ pip install requirements.txt
   4) Remplacer le fichier **php.ini**, dans le chemin suivant: **C:\xampp\php**.
 
 
-## II) Mettre en place notre base de données NoSQL <img src="https://img.icons8.com/color/96/null/mongodb.png"  width="25" height="25"/>
+## II) Mettre en place notre base de données NoSQL <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="30" height="30"/>
 
 
   1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
@@ -62,14 +62,18 @@ pip install requirements.txt
   3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
 
 
-## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="25" height="25"/>
+## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="30" height="30"/>
 
 
   1) Sur VSCode, dans le dossier du site, lancer le run_server_flask
   2) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
-## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
+
+
+
+
+## Utiliser MongoDB
 
 
 Vous pouvez utiliser un invite de commandes MongoDB pour modifier les données de votre base NoSQL. Ci-dessous quelques commandes de base si vous voulez vous essayer à Mongo Shell.
