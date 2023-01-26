@@ -32,7 +32,7 @@ pip install pandas
   - [**Flask**](https://flask.palletsprojects.com/en/2.2.x/) :
 
 ```bash
-pip install -U Flask
+pip install Flask
 ```
 
   - [**Bs4**](https://pypi.org/project/bs4/) :
@@ -55,7 +55,7 @@ pip install DateTime
   - [**Matplotlib**](https://matplotlib.org/stable/users/installing/index.html) :
 
 ```bash
-pip install -U matplotlib
+pip install matplotlib
 ```
 
   - [**Seaborn**](https://seaborn.pydata.org/installing.html) :
