@@ -13,8 +13,8 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 
 
 Pour exécuter ce projet, vous aurez besoin de plusieurs choses. 
-
 Nous avons créé un fichier requirements.txt pour installer toutes les dépendances nécessaires.
+
 Ci-dessous le détail de ces dépendances :
 
   - [**Python**](https://www.python.org/)
