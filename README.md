@@ -15,7 +15,7 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
 
   - [Python](https://www.python.org/)
-  - [Xampp](https://www.apachefriends.org/fr/index.html)
+  - [Xampp](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
   - [MongoDB shell](https://www.mongodb.com/try/download/shell)
   - [Pandas](https://pandas.pydata.org/) :
 
