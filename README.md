@@ -14,39 +14,39 @@ Au niveau de l'affichage, nous avons opté pour une petite interface web comport
 
 Pour utiliser ce projet, vous aurez besoin de plusieurs choses :
 
-  - [Python](https://www.python.org/)
-  - [Xampp](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
-  - [MongoDB shell](https://www.mongodb.com/try/download/shell)
-  - [Numpy](https://numpy.org/install/) :
+  - [**Python**](https://www.python.org/)
+  - [**Xampp**](https://www.apachefriends.org/fr/download.html) (télécharger la version 8.1 car c'est la dernière version où Mongo fonctionne)
+  - [**MongoDB shell**](https://www.mongodb.com/try/download/shell)
+  - [**Numpy**](https://numpy.org/install/) :
   
   ```bash
 pip install numpy
 ```
 
-  - [Pandas](https://pandas.pydata.org/) :
+  - [**Pandas**](https://pandas.pydata.org/) :
 
 ```bash
 pip install pandas
 ```
 
-  - [Flask](https://flask.palletsprojects.com/en/2.2.x/) :
+  - [**Flask**](https://flask.palletsprojects.com/en/2.2.x/) :
 
 ```bash
 pip install -U Flask
 ```
 
-  - [Bs4](https://pypi.org/project/bs4/) :
+  - [**Bs4**](https://pypi.org/project/bs4/) :
 ```bash
 pip install bs4
 ```
 
-  - [Pymongo](https://www.mongodb.com/docs/drivers/pymongo/) :
+  - [**Pymongo**](https://www.mongodb.com/docs/drivers/pymongo/) :
 
 ```bash
 pip install pymongo
 ```
 
-  - [DateTime](https://pypi.org/project/DateTime/) :
+  - [**DateTime**](https://pypi.org/project/DateTime/) :
 
 ```bash
 pip install DateTime
@@ -58,7 +58,25 @@ pip install DateTime
 pip install -U matplotlib
 ```
 
-  - [MongoDB Compass](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
+  - [**Seaborn**](https://seaborn.pydata.org/installing.html) :
+
+```bash
+pip install seaborn
+```
+
+  - [**Dateutil **](https://pypi.org/project/python-dateutil/) :
+
+```bash
+pip install python-dateutil
+```
+
+  - [**Webbrowser **](https://pypi.org/project/python-dateutil/) :
+
+```bash
+pip install pycopy-webbrowser
+```
+
+  - [**MongoDB Compass**](https://www.mongodb.com/products/compass) (pas obligatoire mais intéressant pour gérer facilement et visualiser ses collections)
 
 
 ## Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
