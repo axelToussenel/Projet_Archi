@@ -56,16 +56,16 @@ pip install requirements.txt
 ## II) Mettre en place notre base de données NoSQL <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="30" height="30"/>
 
 
-  1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
-  2) Ouvrir le dossier de la base de données (qui sera fournis).
-  3) Ouvrir MongoDB Compass à côté pour visualiser les collections qui s'insèrent.
+  1) Ouvrir **Visual Studio Code** et ouvrir le dossier du site (Voiture).
+  2) Ouvrir le dossier de la base de données sur l'éditeur (/Dossier_bddanalyse).
+  3) Ouvrir MongoDB Compass à côté pour visualiser les collections qui se sont insérées.
   4) Lancer les scripts python (dans VSCode) dans l'ordre suivant: les 3 programmes **insert**(Dossier_bddanalyse/prog_insertScrap_Mongo.py, prog_insert_reg_dep_PIB.py, prog_insert_voiture_brut_LC.py) puis l'**agregate**(Dossier_bddanalyse/Agregate_collection.py).
   
 Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'insertion des programmes python précédents, nous obtenons donc 4 collections distinctes dans une base de données qui s'appelle **Projet**.
-  - PIB_Dep_Reg : Cette collection est notre 1er dataset brut, il contient les PIB des différents départements et régions en France.
-  - Voiture_LC_brut : Cette collection est le 2nd dataset brut qui contient des données provenant du site **La Centrale**.
-  - Voiture_live_scrap : Celle-ci est notre dataset dynamique qui contient donc les dernières voitures en vente sur La Centrale en fonction du département et de la région.
-  - Voitures_PIB : Cette dernière collection est l'assemblage des 2 premiers datasets bruts(ci-dessus) grâce une fonction **aggregate**.
+  - **PIB_Dep_Reg** : Cette collection est notre 1er dataset brut, il contient les PIB des différents départements et régions en France.
+  - **Voiture_LC_brut** : Cette collection est le 2nd dataset brut qui contient des données provenant du site **La Centrale**.
+  - **Voiture_live_scrap** : Celle-ci est notre dataset dynamique qui contient donc les dernières voitures en vente sur La Centrale en fonction du département et de la région.
+  - **Voitures_PIB** : Cette dernière collection est l'assemblage des 2 premiers datasets bruts(ci-dessus) grâce une fonction **aggregate**.
 
 
 ## III) Lancer l'appli web <img src="https://img.icons8.com/color/96/null/internet--v1.png"  width="30" height="30"/>
@@ -81,11 +81,11 @@ Lors de l'ouverture de MongoDB Compass, une fois s'être connecté, après l'ins
 
 
 Pour visualiser les différents diagrammes de l'analyse, lancez les fichier suivants que vous trouverez dans Dossier_bddanalyse.
-  - aMoyPrixVoitureDep.py : Cette analyse nous permet de visualiser la moyenne des prix des véhicules en vente sur La Centrale en fonctions de leurs départements.
-  - aPibDep.py : Cette visualisation nous permet de voir le PIB en fonction des départements.
-  - aPibReg.py : Cette visualisation nous permet de voir le PIB en fonction des régions.
-  - aPrixEtPibParDep.py : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des départements, l'autre affiche le PIB en fonction des départements.
-  - aPrixEtPibParReg.py : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des régions, l'autre affiche le PIB en fonction des régions.
+  - **aMoyPrixVoitureDep.py** : Cette analyse nous permet de visualiser la moyenne des prix des véhicules en vente sur La Centrale en fonctions de leurs départements.
+  - **aPibDep.py** : Cette visualisation nous permet de voir le PIB en fonction des départements.
+  - **aPibReg.py** : Cette visualisation nous permet de voir le PIB en fonction des régions.
+  - **aPrixEtPibParDep.py** : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des départements, l'autre affiche le PIB en fonction des départements.
+  - **aPrixEtPibParReg.py** : Cette visualisation affiche 2 diagrammes : l'un affiche les prix des véhicules en fonction des régions, l'autre affiche le PIB en fonction des régions.
 
 
 ----------
