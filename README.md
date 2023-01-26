@@ -65,9 +65,8 @@ pip install requirements.txt
 ## III) Lancer l'appli web
 
 
-  1) Sur VSCode dans le dossier du site 
-  2) Lancer le run_server_flask
-  3) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
+  1) Sur VSCode, dans le dossier du site, lancer le run_server_flask
+  2) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
 ## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
