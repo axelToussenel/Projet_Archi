@@ -53,8 +53,6 @@ pip install requirements.txt
   3) Rajouter une extension **.dll** (php_mongodb.dll) qui sera fourni, dans le chemin suivant: **C:\xampp\php\ext**.
   4) Remplacer le fichier **php.ini** (qui sera fourni), dans le chemin suivant: **C:\xampp\php**.
 
-Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'application est là !
-
 
 ## II) Mettre en place notre base de données NoSQL
 
@@ -62,6 +60,14 @@ Rendez-vous à l'adresse **localhost** sur votre navigateur favori et l'applicat
   1) Ouvrir VSCODE et ouvrir le dossier du site (Voiture).
   2) Ouvrir le dossier de la base de données (qui sera fournis).
   3) Lancer les scripts python dans l'ordre suivant: les 3 prog insert puis l'agregate collection.
+
+
+## III) Lancer l'appli web
+
+
+  1) Sur VSCode dans le dossier du site 
+	2) Lancer le run_server_flask
+	3) Rendez-vous à l'adresse **http://localhost/voiture/** sur votre navigateur favori et l'application est là !
 
 
 ## Utiliser MongoDB <img src="https://user-images.githubusercontent.com/91553182/212089016-39ea5621-a6ce-4ef7-8f4f-4e0685236147.png"  width="25" height="25"/>
