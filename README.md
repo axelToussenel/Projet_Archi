@@ -24,7 +24,7 @@ pip install pandas
 ```
 
 
-## Utiliser Xampp <img src="https://icones8.fr/icon/Okpjgf9xZray/groupe-de-serveurs"  width="25" height="25"/>
+## Utiliser Xampp <img src="https://img.icons8.com/stickers/100/null/servers-group.png"  width="25" height="25"/>
 
 
 Pour que votre appli web fonctionne, assurez-vous d'avoir placé votre projet dans le dossier **htdocs** de Xampp. Ensuite, lancez Xampp et cliquez sur le bouton **Start** en face de l'intitulé **Apache**.
